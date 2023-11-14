@@ -1,0 +1,104 @@
+ :root {
+     --bg: #222020;
+     --destaque: #0071a9;
+ }
+
+
+ *,
+ *::before,
+ *::after {
+     box-sizing: border-box;
+ }
+
+
+ * {
+     margin: 0;
+ }
+
+
+ body {
+     line-height: 1.5;
+     -webkit-font-smoothing: antialiased;
+     font-family: 'Cabin Variable', sans-serif;
+     background-color: var(--bg);
+     color: white;
+ }
+
+
+ img,
+ picture,
+ video,
+ canvas,
+ svg {
+     display: block;
+     max-width: 100%;
+ }
+
+
+ input,
+ button,
+ textarea,
+ select {
+     font: inherit;
+ }
+
+
+ p,
+ h1,
+ h2,
+ h3,
+ h4,
+ h5,
+ h6 {
+     overflow-wrap: break-word;
+ }
+
+ h1,
+ h2,
+ h3 {
+     font-family: 'Roboto Condensed', sans-serif;
+     line-height: 1.2;
+     font-weight: normal;
+ }
+
+ h1 {
+     font-size: calc(36/16 * 1rem);
+ }
+
+ .wrap {
+     margin: 0 auto;
+     padding: 0 20px;
+ }
+
+ a {
+     /* display: inline-block; é usado para poder da margem no botão  */
+     display: inline-block;
+     text-decoration: none;
+     text-underline-offset: 2px;
+ }
+
+ ul {
+     list-style: none;
+     /* tira o padrão de padding colocado pelo o browswer  */
+     padding-left: unset;
+ }
+
+ .btn {
+     color: white;
+     border: 1px solid white;
+     padding: 6px 12px;
+     border-radius: 4px;
+     transition: 250ms;
+ }
+
+ .btn:hover {
+     background-color: white;
+     color: black;
+     transition: 250ms;
+ }
+
+ html,
+ body {
+     height: 100%;
+     scroll-behavior: smooth;
+ }

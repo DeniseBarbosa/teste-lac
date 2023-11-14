@@ -1,2 +1,11 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script>
+	import Introducao from '$lib/introducao.svelte';
+</script>
+
+<Introducao
+	title="Dolorido hoje, forte amanhã!"
+	content="Não deixe que a preguiça seja mais forte do que a sua vontade de mudar."
+	btn="Sobre"
+	href="sobre"
+	img="musculacao"
+/>
